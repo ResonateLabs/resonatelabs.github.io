@@ -1,0 +1,35 @@
+
+/*Company Colors
+Primary: #FF3800 - Orange
+Secondary: #374140 - Gray
+Background: FFFCC4 - Beige?
+ */
+
+ /*.navbar-default {
+   background-color: #FF3800;
+ }
+ */
+
+.navbar-default {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #FF3800;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFF;
+    color: #FFF;
+}
+
+.header-bg {
+  width:100%;
+  height:675px;
+  background-image: url("../img/jumbotron_img.jpeg");
+  background-size:cover;
+}
+
+.img-circle .img-responsive .img-center{
+  margin: 0 auto;
+}
