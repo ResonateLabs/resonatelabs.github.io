@@ -9,7 +9,13 @@ Background: FFFCC4 - Beige?
    background-color: #FF3800;
  }
  */
-
+ p, div {
+     font-family: 'Your Font';
+     font-family: 'Merriweather', serif;
+ }
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Lato', sans-serif;
+ }
 .navbar-default {
    background-color: transparent;
    background: transparent;
@@ -17,6 +23,7 @@ Background: FFFCC4 - Beige?
 }
 .navbar-default .navbar-brand {
     color: #FF3800;
+    font-family: 'Cabin Condensed', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: #FFF;
@@ -26,7 +33,7 @@ Background: FFFCC4 - Beige?
 .header-bg {
   width:100%;
   height:675px;
-  background-image: url("../img/jumbotron_img.jpeg");
+  background-image: url("../img/main_splash.jpeg");
   background-size:cover;
 }
 
