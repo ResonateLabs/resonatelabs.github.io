@@ -36,6 +36,7 @@ h6 {
     font-weight: 700;
 }
 
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -48,7 +49,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f08d";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -129,7 +130,9 @@ header .intro-text .skills {
         font-size: 2em;
     }
 }
+/* Header button info */
 
+/* ----------------------------- */
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -198,6 +201,10 @@ section.success a:active,
 section.success a.active {
     outline: 0;
     color: #F2553D;
+}
+section.success img{
+  border: 10px solid;
+  border-color: #F2553D;
 }
 
 @media(max-width:767px) {
